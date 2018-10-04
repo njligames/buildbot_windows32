@@ -47,11 +47,12 @@ list(APPEND _IMPORT_CHECK_FILES_FOR_NJLIC::NJLIC-lua-swig-njlic-module "${_IMPOR
 # Import target "NJLIC::NJLIC-lua-swig-njlic" for configuration "RelWithDebInfo"
 set_property(TARGET NJLIC::NJLIC-lua-swig-njlic APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(NJLIC::NJLIC-lua-swig-njlic PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "${_IMPORT_PREFIX}/lib/NJLIC-lua-swig-njlic.dll"
+  IMPORTED_IMPLIB_RELWITHDEBINFO "${_IMPORT_PREFIX}/lib/NJLIC-lua-swig-njlic.lib"
+  IMPORTED_LOCATION_RELWITHDEBINFO "${_IMPORT_PREFIX}/bin/NJLIC-lua-swig-njlic.dll"
   )
 
 list(APPEND _IMPORT_CHECK_TARGETS NJLIC::NJLIC-lua-swig-njlic )
-list(APPEND _IMPORT_CHECK_FILES_FOR_NJLIC::NJLIC-lua-swig-njlic "${_IMPORT_PREFIX}/lib/NJLIC-lua-swig-njlic.dll" )
+list(APPEND _IMPORT_CHECK_FILES_FOR_NJLIC::NJLIC-lua-swig-njlic "${_IMPORT_PREFIX}/lib/NJLIC-lua-swig-njlic.lib" "${_IMPORT_PREFIX}/bin/NJLIC-lua-swig-njlic.dll" )
 
 # Import target "NJLIC::NJLIC-lua-swig-njlic-static" for configuration "RelWithDebInfo"
 set_property(TARGET NJLIC::NJLIC-lua-swig-njlic-static APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)

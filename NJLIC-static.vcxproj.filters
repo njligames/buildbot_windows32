@@ -196,6 +196,9 @@
     <ClCompile Include="C:\work\temp_jim\test_project_repo\buildbot_windows32\njligames-njlic_engine\njli\builders\graphics\MaterialPropertyBuilder.cpp">
       <Filter>Source Files\njli\builders\graphics</Filter>
     </ClCompile>
+    <ClCompile Include="C:\work\temp_jim\test_project_repo\buildbot_windows32\njligames-njlic_engine\njli\builders\graphics\MeshGeometryBuilder.cpp">
+      <Filter>Source Files\njli\builders\graphics</Filter>
+    </ClCompile>
     <ClCompile Include="C:\work\temp_jim\test_project_repo\buildbot_windows32\njligames-njlic_engine\njli\builders\graphics\ShaderProgramBuilder.cpp">
       <Filter>Source Files\njli\builders\graphics</Filter>
     </ClCompile>
@@ -355,6 +358,9 @@
     <ClCompile Include="C:\work\temp_jim\test_project_repo\buildbot_windows32\njligames-njlic_engine\njli\builders\steering\behavior\SteeringBehaviorWanderBuilder.cpp">
       <Filter>Source Files\njli\builders\steering\behavior</Filter>
     </ClCompile>
+    <ClCompile Include="C:\work\temp_jim\test_project_repo\buildbot_windows32\njligames-njlic_engine\njli\graphics\Cube.cpp">
+      <Filter>Source Files\njli\graphics</Filter>
+    </ClCompile>
     <ClCompile Include="C:\work\temp_jim\test_project_repo\buildbot_windows32\njligames-njlic_engine\njli\graphics\ImGuizmo.cpp">
       <Filter>Source Files\njli\graphics</Filter>
     </ClCompile>
@@ -376,6 +382,9 @@
     <ClCompile Include="C:\work\temp_jim\test_project_repo\buildbot_windows32\njligames-njlic_engine\njli\graphics\Skinner.cpp">
       <Filter>Source Files\njli\graphics</Filter>
     </ClCompile>
+    <ClCompile Include="C:\work\temp_jim\test_project_repo\buildbot_windows32\njligames-njlic_engine\njli\graphics\Sprite2D.cpp">
+      <Filter>Source Files\njli\graphics</Filter>
+    </ClCompile>
     <ClCompile Include="C:\work\temp_jim\test_project_repo\buildbot_windows32\njligames-njlic_engine\njli\graphics\SpriteFrameAtlas.cpp">
       <Filter>Source Files\njli\graphics</Filter>
     </ClCompile>
@@ -385,19 +394,16 @@
     <ClCompile Include="C:\work\temp_jim\test_project_repo\buildbot_windows32\njligames-njlic_engine\njli\graphics\opengl_2\AbstractRender.cpp">
       <Filter>Source Files\njli\graphics\opengl_2</Filter>
     </ClCompile>
-    <ClCompile Include="C:\work\temp_jim\test_project_repo\buildbot_windows32\njligames-njlic_engine\njli\graphics\opengl_2\Cube.cpp">
-      <Filter>Source Files\njli\graphics\opengl_2</Filter>
-    </ClCompile>
     <ClCompile Include="C:\work\temp_jim\test_project_repo\buildbot_windows32\njligames-njlic_engine\njli\graphics\opengl_2\Geometry.cpp">
       <Filter>Source Files\njli\graphics\opengl_2</Filter>
     </ClCompile>
     <ClCompile Include="C:\work\temp_jim\test_project_repo\buildbot_windows32\njligames-njlic_engine\njli\graphics\opengl_2\MaterialProperty.cpp">
       <Filter>Source Files\njli\graphics\opengl_2</Filter>
     </ClCompile>
-    <ClCompile Include="C:\work\temp_jim\test_project_repo\buildbot_windows32\njligames-njlic_engine\njli\graphics\opengl_2\ShaderProgram.cpp">
+    <ClCompile Include="C:\work\temp_jim\test_project_repo\buildbot_windows32\njligames-njlic_engine\njli\graphics\opengl_2\MeshGeometry.cpp">
       <Filter>Source Files\njli\graphics\opengl_2</Filter>
     </ClCompile>
-    <ClCompile Include="C:\work\temp_jim\test_project_repo\buildbot_windows32\njligames-njlic_engine\njli\graphics\opengl_2\Sprite2D.cpp">
+    <ClCompile Include="C:\work\temp_jim\test_project_repo\buildbot_windows32\njligames-njlic_engine\njli\graphics\opengl_2\ShaderProgram.cpp">
       <Filter>Source Files\njli\graphics\opengl_2</Filter>
     </ClCompile>
     <ClCompile Include="C:\work\temp_jim\test_project_repo\buildbot_windows32\njligames-njlic_engine\njli\graphics\opengl_2\WorldDebugDrawer.cpp">
@@ -744,9 +750,6 @@
     <ClInclude Include="C:\work\temp_jim\test_project_repo\buildbot_windows32\njligames-njlic_engine\njli\CollisionResponse.h">
       <Filter>Source Files\njli</Filter>
     </ClInclude>
-    <ClInclude Include="C:\work\temp_jim\test_project_repo\buildbot_windows32\njligames-njlic_engine\njli\CubeBuilder.h">
-      <Filter>Source Files\njli</Filter>
-    </ClInclude>
     <ClInclude Include="C:\work\temp_jim\test_project_repo\buildbot_windows32\njligames-njlic_engine\njli\Font.h">
       <Filter>Source Files\njli</Filter>
     </ClInclude>
@@ -903,6 +906,9 @@
     <ClInclude Include="C:\work\temp_jim\test_project_repo\buildbot_windows32\njligames-njlic_engine\njli\builders\graphics\CheckboxHUDBuilder.h">
       <Filter>Source Files\njli\builders\graphics</Filter>
     </ClInclude>
+    <ClInclude Include="C:\work\temp_jim\test_project_repo\buildbot_windows32\njligames-njlic_engine\njli\builders\graphics\CubeBuilder.h">
+      <Filter>Source Files\njli\builders\graphics</Filter>
+    </ClInclude>
     <ClInclude Include="C:\work\temp_jim\test_project_repo\buildbot_windows32\njligames-njlic_engine\njli\builders\graphics\DropdownHUDBuilder.h">
       <Filter>Source Files\njli\builders\graphics</Filter>
     </ClInclude>
@@ -913,6 +919,9 @@
       <Filter>Source Files\njli\builders\graphics</Filter>
     </ClInclude>
     <ClInclude Include="C:\work\temp_jim\test_project_repo\buildbot_windows32\njligames-njlic_engine\njli\builders\graphics\MaterialPropertyBuilder.h">
+      <Filter>Source Files\njli\builders\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\temp_jim\test_project_repo\buildbot_windows32\njligames-njlic_engine\njli\builders\graphics\MeshGeometryBuilder.h">
       <Filter>Source Files\njli\builders\graphics</Filter>
     </ClInclude>
     <ClInclude Include="C:\work\temp_jim\test_project_repo\buildbot_windows32\njligames-njlic_engine\njli\builders\graphics\ShaderProgramBuilder.h">
@@ -1102,6 +1111,9 @@
       <Filter>Source Files\njli\graphics</Filter>
     </ClInclude>
     <ClInclude Include="C:\work\temp_jim\test_project_repo\buildbot_windows32\njligames-njlic_engine\njli\graphics\MaterialProperty.h">
+      <Filter>Source Files\njli\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\temp_jim\test_project_repo\buildbot_windows32\njligames-njlic_engine\njli\graphics\MeshGeometry.h">
       <Filter>Source Files\njli\graphics</Filter>
     </ClInclude>
     <ClInclude Include="C:\work\temp_jim\test_project_repo\buildbot_windows32\njligames-njlic_engine\njli\graphics\ParticleEmitter.h">

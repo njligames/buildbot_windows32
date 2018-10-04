@@ -68,7 +68,7 @@ set_target_properties(NJLIC::NJLIC PROPERTIES
 add_library(NJLIC::NJLIC-lua-swig-bullet3-static STATIC IMPORTED)
 
 set_target_properties(NJLIC::NJLIC-lua-swig-bullet3-static PROPERTIES
-  INTERFACE_COMPILE_DEFINITIONS "NJLIC_SWIG=1;BT_INFINITY;BULLET3_SWIG=1;BT_INFINITY"
+  INTERFACE_COMPILE_DEFINITIONS "NJLIC_SWIG=1;BT_INFINITY;BULLET3_SWIG=1;BT_INFINITY;NJLIC_SWIG=1;BT_INFINITY;BULLET3_SWIG=1;BT_INFINITY"
   INTERFACE_LINK_LIBRARIES "NJLIC::NJLIC-static;\$<\$<NOT:\$<CONFIG:DEBUG>>:Bullet2FileLoader>;\$<\$<NOT:\$<CONFIG:DEBUG>>:Bullet3Collision>;\$<\$<NOT:\$<CONFIG:DEBUG>>:Bullet3Common>;\$<\$<NOT:\$<CONFIG:DEBUG>>:Bullet3Dynamics>;\$<\$<NOT:\$<CONFIG:DEBUG>>:Bullet3Geometry>;\$<\$<NOT:\$<CONFIG:DEBUG>>:Bullet3OpenCL_clew>;\$<\$<NOT:\$<CONFIG:DEBUG>>:BulletCollision>;\$<\$<NOT:\$<CONFIG:DEBUG>>:BulletDynamics>;\$<\$<NOT:\$<CONFIG:DEBUG>>:BulletFileLoader>;\$<\$<NOT:\$<CONFIG:DEBUG>>:BulletInverseDynamics>;\$<\$<NOT:\$<CONFIG:DEBUG>>:BulletInverseDynamicsUtils>;\$<\$<NOT:\$<CONFIG:DEBUG>>:BulletSoftBody>;\$<\$<NOT:\$<CONFIG:DEBUG>>:BulletWorldImporter>;\$<\$<NOT:\$<CONFIG:DEBUG>>:BulletXmlWorldImporter>;\$<\$<NOT:\$<CONFIG:DEBUG>>:ConvexDecomposition>;\$<\$<NOT:\$<CONFIG:DEBUG>>:GIMPACTUtils>;\$<\$<NOT:\$<CONFIG:DEBUG>>:HACD>;\$<\$<NOT:\$<CONFIG:DEBUG>>:LinearMath>;\$<\$<NOT:\$<CONFIG:DEBUG>>:imgui>;\$<\$<NOT:\$<CONFIG:DEBUG>>:ImGuizmo>;\$<\$<NOT:\$<CONFIG:DEBUG>>:ogg>;\$<\$<NOT:\$<CONFIG:DEBUG>>:vorbis>;\$<\$<NOT:\$<CONFIG:DEBUG>>:vorbisenc>;\$<\$<NOT:\$<CONFIG:DEBUG>>:vorbisfile>;\$<\$<NOT:\$<CONFIG:DEBUG>>:openal>;\$<\$<NOT:\$<CONFIG:DEBUG>>:opengl32>;\$<\$<NOT:\$<CONFIG:DEBUG>>:glu32>;\$<\$<NOT:\$<CONFIG:DEBUG>>:glew32>;\$<\$<NOT:\$<CONFIG:DEBUG>>:glew32s>;\$<\$<NOT:\$<CONFIG:DEBUG>>:user32>;\$<\$<NOT:\$<CONFIG:DEBUG>>:gdi32>;\$<\$<NOT:\$<CONFIG:DEBUG>>:winmm>;\$<\$<NOT:\$<CONFIG:DEBUG>>:imm32>;\$<\$<NOT:\$<CONFIG:DEBUG>>:ole32>;\$<\$<NOT:\$<CONFIG:DEBUG>>:oleaut32>;\$<\$<NOT:\$<CONFIG:DEBUG>>:version>;\$<\$<NOT:\$<CONFIG:DEBUG>>:uuid>;\$<\$<NOT:\$<CONFIG:DEBUG>>:SDL2>;\$<\$<NOT:\$<CONFIG:DEBUG>>:SDL2main>;\$<\$<NOT:\$<CONFIG:DEBUG>>:NJLIC-lua-swig-njlic-static>;\$<\$<NOT:\$<CONFIG:DEBUG>>:msvcrt.lib>;\$<\$<NOT:\$<CONFIG:DEBUG>>:msvcrt.lib>"
 )
 
@@ -76,15 +76,15 @@ set_target_properties(NJLIC::NJLIC-lua-swig-bullet3-static PROPERTIES
 add_library(NJLIC::NJLIC-lua-swig-njlic-module MODULE IMPORTED)
 
 set_target_properties(NJLIC::NJLIC-lua-swig-njlic-module PROPERTIES
-  INTERFACE_COMPILE_DEFINITIONS "NJLIC_SWIG=1;BT_INFINITY"
+  INTERFACE_COMPILE_DEFINITIONS "NJLIC_SWIG=1;BT_INFINITY;NJLIC_SWIG=1;BT_INFINITY"
   INTERFACE_LINK_LIBRARIES "\$<\$<CONFIG:DEBUG>:msvcrtd.lib>;NJLIC::NJLIC-static"
 )
 
 # Create imported target NJLIC::NJLIC-lua-swig-njlic
-add_library(NJLIC::NJLIC-lua-swig-njlic MODULE IMPORTED)
+add_library(NJLIC::NJLIC-lua-swig-njlic SHARED IMPORTED)
 
 set_target_properties(NJLIC::NJLIC-lua-swig-njlic PROPERTIES
-  INTERFACE_COMPILE_DEFINITIONS "NJLIC_SWIG=1;BT_INFINITY"
+  INTERFACE_COMPILE_DEFINITIONS "NJLIC_SWIG=1;BT_INFINITY;NJLIC_SWIG=1;BT_INFINITY"
   INTERFACE_LINK_LIBRARIES "\$<\$<CONFIG:DEBUG>:msvcrtd.lib>;NJLIC::NJLIC-static"
 )
 
@@ -92,7 +92,7 @@ set_target_properties(NJLIC::NJLIC-lua-swig-njlic PROPERTIES
 add_library(NJLIC::NJLIC-lua-swig-njlic-static STATIC IMPORTED)
 
 set_target_properties(NJLIC::NJLIC-lua-swig-njlic-static PROPERTIES
-  INTERFACE_COMPILE_DEFINITIONS "NJLIC_SWIG=1;BT_INFINITY"
+  INTERFACE_COMPILE_DEFINITIONS "NJLIC_SWIG=1;BT_INFINITY;NJLIC_SWIG=1;BT_INFINITY"
 )
 
 if(CMAKE_VERSION VERSION_LESS 2.8.12)

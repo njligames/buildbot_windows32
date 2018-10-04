@@ -441,6 +441,9 @@
     <None Include="C:\work\temp_jim\test_project_repo\buildbot_windows32\njligames-njlic_engine\swig.in\script\njlic\graphics\MaterialProperty.swg">
       <Filter>Source Files\swig.in\script\njlic\graphics</Filter>
     </None>
+    <None Include="C:\work\temp_jim\test_project_repo\buildbot_windows32\njligames-njlic_engine\swig.in\script\njlic\graphics\MeshGeometry.swg">
+      <Filter>Source Files\swig.in\script\njlic\graphics</Filter>
+    </None>
     <None Include="C:\work\temp_jim\test_project_repo\buildbot_windows32\njligames-njlic_engine\swig.in\script\njlic\graphics\ParticleEmitter.swg">
       <Filter>Source Files\swig.in\script\njlic\graphics</Filter>
     </None>

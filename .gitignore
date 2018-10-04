@@ -19,4 +19,7 @@ lua.dir/
 luac.dir/
 tagfile
 
+.vs/
+NJLIC.VC.VC.opendb
+NJLIC.VC.db
 

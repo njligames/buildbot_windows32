@@ -47,11 +47,12 @@ list(APPEND _IMPORT_CHECK_FILES_FOR_NJLIC::NJLIC-lua-swig-njlic-module "${_IMPOR
 # Import target "NJLIC::NJLIC-lua-swig-njlic" for configuration "Debug"
 set_property(TARGET NJLIC::NJLIC-lua-swig-njlic APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(NJLIC::NJLIC-lua-swig-njlic PROPERTIES
-  IMPORTED_LOCATION_DEBUG "${_IMPORT_PREFIX}/lib/NJLIC-lua-swig-njlicd.dll"
+  IMPORTED_IMPLIB_DEBUG "${_IMPORT_PREFIX}/lib/NJLIC-lua-swig-njlicd.lib"
+  IMPORTED_LOCATION_DEBUG "${_IMPORT_PREFIX}/bin/NJLIC-lua-swig-njlicd.dll"
   )
 
 list(APPEND _IMPORT_CHECK_TARGETS NJLIC::NJLIC-lua-swig-njlic )
-list(APPEND _IMPORT_CHECK_FILES_FOR_NJLIC::NJLIC-lua-swig-njlic "${_IMPORT_PREFIX}/lib/NJLIC-lua-swig-njlicd.dll" )
+list(APPEND _IMPORT_CHECK_FILES_FOR_NJLIC::NJLIC-lua-swig-njlic "${_IMPORT_PREFIX}/lib/NJLIC-lua-swig-njlicd.lib" "${_IMPORT_PREFIX}/bin/NJLIC-lua-swig-njlicd.dll" )
 
 # Import target "NJLIC::NJLIC-lua-swig-njlic-static" for configuration "Debug"
 set_property(TARGET NJLIC::NJLIC-lua-swig-njlic-static APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
